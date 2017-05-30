@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F1F232B1ED92F5E00537CB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1F232A1ED92F5E00537CB7 /* AppDelegate.swift */; };
+		2F1F232D1ED92F5E00537CB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1F232C1ED92F5E00537CB7 /* ViewController.swift */; };
+		2F1F23301ED92F5E00537CB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1F232E1ED92F5E00537CB7 /* Main.storyboard */; };
+		2F1F23321ED92F5E00537CB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1F23311ED92F5E00537CB7 /* Assets.xcassets */; };
+		2F1F23351ED92F5E00537CB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1F23331ED92F5E00537CB7 /* LaunchScreen.storyboard */; };
+		2F1F23401ED9302100537CB7 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F1F233D1ED9302100537CB7 /* AcousticModelEnglish.bundle */; };
+		2F1F23411ED9302100537CB7 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1F233E1ED9302100537CB7 /* OpenEars.framework */; };
+		2F1F23421ED9302100537CB7 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1F233F1ED9302100537CB7 /* Slt.framework */; };
+		2F1F23451ED9306500537CB7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1F23441ED9306500537CB7 /* AudioToolbox.framework */; };
+		2F1F23471ED9306C00537CB7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1F23461ED9306C00537CB7 /* AVFoundation.framework */; };
+		2F3766B31EDDA5450054F819 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3766B21EDDA5450054F819 /* Constants.swift */; };
+		2F4177D61ED9CBCB008732BC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1F234B1ED9C9B100537CB7 /* Alamofire.framework */; };
+		2F4177D71ED9CBCB008732BC /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1F234B1ED9C9B100537CB7 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2F4177DA1ED9E23E008732BC /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4177D91ED9E23E008732BC /* SwiftyJSON.framework */; };
+		2F4177DB1ED9E23E008732BC /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4177D91ED9E23E008732BC /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2F4177D81ED9CBCB008732BC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2F4177DB1ED9E23E008732BC /* SwiftyJSON.framework in Embed Frameworks */,
+				2F4177D71ED9CBCB008732BC /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2F1F23271ED92F5E00537CB7 /* OpenEars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenEars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1F232A1ED92F5E00537CB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F1F232C1ED92F5E00537CB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F1F232F1ED92F5E00537CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F1F23311ED92F5E00537CB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F1F23341ED92F5E00537CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F1F23361ED92F5E00537CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1F233D1ED9302100537CB7 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		2F1F233E1ED9302100537CB7 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		2F1F233F1ED9302100537CB7 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		2F1F23441ED9306500537CB7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2F1F23461ED9306C00537CB7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2F1F23481ED9308600537CB7 /* OpenEarsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenEarsHeader.h; sourceTree = "<group>"; };
+		2F1F234B1ED9C9B100537CB7 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Framework/Alamofire.framework; sourceTree = "<group>"; };
+		2F3766B21EDDA5450054F819 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2F4177D91ED9E23E008732BC /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F1F23241ED92F5E00537CB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4177D61ED9CBCB008732BC /* Alamofire.framework in Frameworks */,
+				2F1F23471ED9306C00537CB7 /* AVFoundation.framework in Frameworks */,
+				2F4177DA1ED9E23E008732BC /* SwiftyJSON.framework in Frameworks */,
+				2F1F23451ED9306500537CB7 /* AudioToolbox.framework in Frameworks */,
+				2F1F23421ED9302100537CB7 /* Slt.framework in Frameworks */,
+				2F1F23411ED9302100537CB7 /* OpenEars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F1F231E1ED92F5E00537CB7 = {
+			isa = PBXGroup;
+			children = (
+				2F3766B21EDDA5450054F819 /* Constants.swift */,
+				2F1F23481ED9308600537CB7 /* OpenEarsHeader.h */,
+				2F1F23291ED92F5E00537CB7 /* OpenEars */,
+				2F1F23281ED92F5E00537CB7 /* Products */,
+				2F1F233C1ED9302100537CB7 /* Framework */,
+				2F1F23431ED9306500537CB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F1F23281ED92F5E00537CB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F1F23271ED92F5E00537CB7 /* OpenEars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F1F23291ED92F5E00537CB7 /* OpenEars */ = {
+			isa = PBXGroup;
+			children = (
+				2F1F232A1ED92F5E00537CB7 /* AppDelegate.swift */,
+				2F1F232C1ED92F5E00537CB7 /* ViewController.swift */,
+				2F1F232E1ED92F5E00537CB7 /* Main.storyboard */,
+				2F1F23311ED92F5E00537CB7 /* Assets.xcassets */,
+				2F1F23331ED92F5E00537CB7 /* LaunchScreen.storyboard */,
+				2F1F23361ED92F5E00537CB7 /* Info.plist */,
+			);
+			path = OpenEars;
+			sourceTree = "<group>";
+		};
+		2F1F233C1ED9302100537CB7 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				2F1F233D1ED9302100537CB7 /* AcousticModelEnglish.bundle */,
+				2F1F233E1ED9302100537CB7 /* OpenEars.framework */,
+				2F1F233F1ED9302100537CB7 /* Slt.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		2F1F23431ED9306500537CB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F4177D91ED9E23E008732BC /* SwiftyJSON.framework */,
+				2F1F234B1ED9C9B100537CB7 /* Alamofire.framework */,
+				2F1F23461ED9306C00537CB7 /* AVFoundation.framework */,
+				2F1F23441ED9306500537CB7 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F1F23261ED92F5E00537CB7 /* OpenEars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1F23391ED92F5E00537CB7 /* Build configuration list for PBXNativeTarget "OpenEars" */;
+			buildPhases = (
+				2F1F23231ED92F5E00537CB7 /* Sources */,
+				2F1F23241ED92F5E00537CB7 /* Frameworks */,
+				2F1F23251ED92F5E00537CB7 /* Resources */,
+				2F4177D81ED9CBCB008732BC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenEars;
+			productName = OpenEars;
+			productReference = 2F1F23271ED92F5E00537CB7 /* OpenEars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F1F231F1ED92F5E00537CB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ivy Zhou";
+				TargetAttributes = {
+					2F1F23261ED92F5E00537CB7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = YP8B37XP2K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2F1F23221ED92F5E00537CB7 /* Build configuration list for PBXProject "OpenEars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F1F231E1ED92F5E00537CB7;
+			productRefGroup = 2F1F23281ED92F5E00537CB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F1F23261ED92F5E00537CB7 /* OpenEars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F1F23251ED92F5E00537CB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1F23351ED92F5E00537CB7 /* LaunchScreen.storyboard in Resources */,
+				2F1F23401ED9302100537CB7 /* AcousticModelEnglish.bundle in Resources */,
+				2F1F23321ED92F5E00537CB7 /* Assets.xcassets in Resources */,
+				2F1F23301ED92F5E00537CB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F1F23231ED92F5E00537CB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1F232D1ED92F5E00537CB7 /* ViewController.swift in Sources */,
+				2F1F232B1ED92F5E00537CB7 /* AppDelegate.swift in Sources */,
+				2F3766B31EDDA5450054F819 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F1F232E1ED92F5E00537CB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F1F232F1ED92F5E00537CB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F1F23331ED92F5E00537CB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F1F23341ED92F5E00537CB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F1F23371ED92F5E00537CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F1F23381ED92F5E00537CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F1F233A1ED92F5E00537CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YP8B37XP2K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = OpenEars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivyzhou.OpenEars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "/Users/ivyzhou/development/tut/ios-tut/OpenEars/OpenEarsHeader.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2F1F233B1ED92F5E00537CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YP8B37XP2K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = OpenEars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivyzhou.OpenEars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "/Users/ivyzhou/development/tut/ios-tut/OpenEars/OpenEarsHeader.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F1F23221ED92F5E00537CB7 /* Build configuration list for PBXProject "OpenEars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1F23371ED92F5E00537CB7 /* Debug */,
+				2F1F23381ED92F5E00537CB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F1F23391ED92F5E00537CB7 /* Build configuration list for PBXNativeTarget "OpenEars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1F233A1ED92F5E00537CB7 /* Debug */,
+				2F1F233B1ED92F5E00537CB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F1F231F1ED92F5E00537CB7 /* Project object */;
+}
